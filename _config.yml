@@ -13,7 +13,7 @@ title: kunihiro's sphere
 email: lanwireless@outlook.com
 description: >- # this means to ignore newlines until "url:"
   Nothing
-url: "" # the base hostname & protocol for your site
+url: "mycodingsucks.github.io" # the base hostname & protocol for your site
 
 # jekyll-paginate
 paginate: 5
