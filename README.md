@@ -1,7 +1,7 @@
 # BLOG
 
 Theme: https://github.com/bitbrain/jekyll-dash  
-And check [here](https://github.com/MyCodingSucks/jekyll-dash-without-plugins) for non-plugins ver.
+And click [here](https://github.com/MyCodingSucks/jekyll-dash-without-plugins) for non-plugins ver.
 
 ---
 
