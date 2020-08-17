@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "盤點日語中那些奇怪發音"
+date:   2020-08-17
+tags: Japanese Phonetics
+---
+
 #### **注意：本頁面包含[語音學符號](https://zh.wikipedia.org/wiki/國際音標)，部分作業系統及瀏覽器需要特殊字母與符號支援才能正確顯示，否則可能出現亂碼、問號、空格等其它符號。**
 
 ---
