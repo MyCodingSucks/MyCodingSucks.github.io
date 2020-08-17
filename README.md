@@ -3,8 +3,6 @@
 Theme: https://github.com/bitbrain/jekyll-dash  
 And click [here](https://github.com/MyCodingSucks/jekyll-dash-without-plugins) for non-plugins ver.
 
----
-
 ## Some documents:  
 ### How to build a jekyll blog  
 https://mathsigit.github.io/blog_page/2017/11/07/githubpage-with-jekyll/  
