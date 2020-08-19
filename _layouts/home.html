@@ -15,14 +15,16 @@ layout: default
 		{% for post in paginator.posts %}
 			<div class="post-link-wrapper">
 				<a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
-					<div class="post-meta">		
+					<div class="post-meta">	
+						<a class="tag" href="/bottom_bar/tags.html#{{ tag_name }}" style="font-size:15px"><nobr>{{ tag_name }}</nobr></a>
+						<!--
 						<span>
 							{% for tag in page.tags %}
 								{% capture tag_name %}{{ tag }}{% endcapture %}
 								<a class="tag" href="/bottom_bar/tags.html#{{ tag_name }}" style="font-size:15px"><nobr>{{ tag_name }}</nobr></a>
 							{% endfor %}
-    					</span>
-			
+						</span>
+						-->
 						{% if site.date_format %}
 							{{ post.date | date: site.date_format }}
 						{% else %}
