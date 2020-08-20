@@ -26,10 +26,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-
-# Google Analytics
-google_analytics: UA—174685768-1
- 
 dash:
   date_format: "%b %-d, %Y"
 
