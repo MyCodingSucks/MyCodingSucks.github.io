@@ -25,13 +25,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-  
+
+
+# Google Analytics
+google_analytics: UA—174685768-1
+ 
 dash:
   date_format: "%b %-d, %Y"
 
   disqus:
     shortname: kunihiro-blog 
-
+ 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
