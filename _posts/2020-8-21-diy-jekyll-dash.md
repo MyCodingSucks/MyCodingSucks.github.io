@@ -24,7 +24,7 @@ Well。首先你要放好你所需的圖片，比如我的就放在 `assets` 裡
 然後你看到了底部的菜單。你可能會想「sh*t，我不需要再 About Me 了」，或者你有其他的 ideas。總之你覺得這不符合你。  
 首先，你可以自建一個你喜歡的檔案夾，或者也可以用我建的 `bottom_bar` ，在裡面加入你需要的文件。  
 
-![files](pic/files.png)
+![files](/pic/files.png)
 
 然後想一下，你想放在哪裡。如果你想把他改到上面的話，複製下面的代碼到 `head.html` 中，記得讓他對應你喜歡的位置：  
 
@@ -97,7 +97,7 @@ Well。首先你要放好你所需的圖片，比如我的就放在 `assets` 裡
 ![reactions](/pic/reactions.png)
 
 ## Google Analytics  
-**如果無法使用 Google 的服務，不妨嘗試下 [Bing Webmaster](https://www.bing.com/toolbox/webmaster/) **。  
+**如果無法使用 Google 的服務，不妨嘗試下 [Bing Webmaster](https://www.bing.com/toolbox/webmaster/)**。  
 在 Google Analytics 設定完成後，你可能會得到一段 JS 代碼。當然你也可以在 `管理 > 追蹤資訊 > 追蹤程式碼` 中找到。  
 
 ![ganaly](/pic/ganaly.png)
