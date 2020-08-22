@@ -83,7 +83,7 @@ Well。首先你要放好你所需的圖片，比如我的就放在 `assets` 裡
 
 如果你足夠細心，會發現我 tag 部分的代碼都是抄[這裡](https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)的，十分感謝原作者的貢獻。  
 
-所有代碼塊都有註釋，包在 ` {% comment %} balabala {% endcomment %} ` 裡面。我只對訂製部分做些解釋好了。  
+所有代碼塊都有註釋，形式如 `{% comment %} balabala {% endcomment %}`。我只對訂製部分做些解釋好了。  
 
 打開 `tags.html` （如果你在訂製底部菜單時把它刪了，你可以回到原 repo 查看），你可以很清楚地看到代碼分四塊。而且註釋中也把作用說得明明白白的。  
 
