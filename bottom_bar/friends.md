@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% unless site.dash.show_author == false %}
-	{% include author.html %}
+ {% include author.html %}
 {% endunless %}
 
 <br>
