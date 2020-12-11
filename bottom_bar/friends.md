@@ -6,6 +6,7 @@ layout: default
 	{% include author.html %}
 {% endunless %}
 
+
 # Friends
 
 [Reliena’s Garage](https://blog.cyanoxygen.xyz/)
