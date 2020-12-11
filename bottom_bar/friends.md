@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% unless site.dash.show_author == false %}
+	{% include author.html %}
+{% endunless %}
+
 # Friends
 
 [Reliena’s Garage](https://blog.cyanoxygen.xyz/)
