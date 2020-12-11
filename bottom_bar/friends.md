@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="author-box">
+{% unless site.dash.show_author == false %}
+  {% include author.html %}
+{% endunless %}
 
-<img src="/assets/avatar.jpg" class="author-avatar" alt="Avatar">
-Nothing
-</div>
+<br>
 
 # Friends
 
