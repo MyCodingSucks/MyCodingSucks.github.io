@@ -24,7 +24,7 @@
 }
 
 .site-title {
-  @include relative-font-size(2);
+  @include relative-font-size(1.625);
   font-weight: 300;
   margin-bottom: 0;
   float: left;
@@ -88,10 +88,8 @@
   @include themed() {
      color: t('foreground-color');
   }
-  white-space: nowrap;
   overflow: hidden;
   width: 100%;
-  animation: type 2s steps(60, end);
   margin-bottom: 1em;
   margin-left: 0.5em;
 
