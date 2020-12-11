@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: default
 ---
 
 {% unless site.dash.show_author == false %}
