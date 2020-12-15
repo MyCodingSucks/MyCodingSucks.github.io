@@ -133,12 +133,12 @@
   ol > li {
     margin-left: 1em;
     text-align: left;
-    margin-bottom: 0.6em;
+    margin-bottom: 0em;
   }
 
   ul > li {
     text-align: left;
-    margin-bottom: 0.6em;
+    margin-bottom: 1em;
     @include themed() {
        color: t('list-primary');
     }
@@ -156,7 +156,6 @@
     padding: 0;
     margin-left: 0.5em;
   }
-
 
 
   & > blockquote {

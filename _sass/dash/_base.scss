@@ -78,8 +78,10 @@ figcaption {
 /**
  * Lists
  */
+
 ul, ol {
   margin-left: $spacing-unit;
+  font-size: $small-font-size * 1.3;
 }
 
 li {
@@ -88,6 +90,7 @@ li {
     margin-bottom: 0;
   }
 }
+
 
 video {
   width: 100%;
@@ -98,7 +101,7 @@ video {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: $base-font-weight * 1.5;
   margin-top: 1em;
   margin-bottom: 0.4em;
   text-align: left;
