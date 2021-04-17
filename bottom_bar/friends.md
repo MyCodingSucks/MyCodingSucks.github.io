@@ -16,6 +16,8 @@ layout: default
 
 [小櫻生活頻道](https://t.me/OoooooooAAAEAAIAU)
 
+[ssr](https://leanhe.dev)
+
 <br>
 
 **正在尋找更多友鏈** 
