@@ -12,7 +12,7 @@ layout: default
 
 [Reliena’s Garage](https://blog.cyanoxygen.xyz/)
 
-[“⁮”的Arcaea丢人频道](https://t.me/ArcaeaSucks)
+[Henry's Blog](https://t.me/ArcaeaSucks)
 
 [小櫻生活頻道](https://t.me/OoooooooAAAEAAIAU)
 
