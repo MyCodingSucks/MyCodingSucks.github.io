@@ -65,7 +65,7 @@ patch -p1 < ~/openwrt-minieap/patches/004-fix-logging-buffer.patch
 patch -p1 < ~/openwrt-minieap/patches/005-remove-pid-check-warn.patch
 ```
 
-![wtf](../pics/2021-06-06/wtf.jpg)
+![wtf](/pics/2021-06-06/wtf.jpg)
 
 Actually I want to use a asterisk to get them done at once, but it threw me this... wtf
 
@@ -189,7 +189,7 @@ Don't worry, we still have mighty GitHub. Many file can be found in GitHub. I us
 
 After all things are done, enter `make` and start compiling. Compiling MiniEAP is pretty fast. You can type `file minieap ` to check if everything is fine.
 
-![file](../pics/2021-06-06/file.png)
+![file](/pics/2021-06-06/file.png)
 
 ## RUN!
 
@@ -226,7 +226,7 @@ It means if the router cannot ping `cn.bing.com` successfully, it will write a l
 
 
 
-![log](../pics/2021-06-06/log.png)
+![log](/pics/2021-06-06/log.png)
 
 In User scripts, we have `wan-script`, add this three line in the script:
 
