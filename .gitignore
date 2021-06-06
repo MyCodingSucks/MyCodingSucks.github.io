@@ -5,4 +5,4 @@ _site
 vendor
 Gemfile.bac
 LICENSE
-README.md
+.DS_Store
