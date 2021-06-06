@@ -30,7 +30,7 @@ Well。首先你要放好你所需的圖片，比如我的就放在 `assets` 裡
 
 首先，你可以自建一個你喜歡的檔案夾，或者也可以用我建的 `bottom_bar` ，在裡面加入你需要的文件。  
 
-![files](/pic/files.png)
+![files](../pics/2020-08-21/files.png)
 
 然後想一下，你想放在哪裡。如果你想把他改到上面的話，複製下面的代碼到 `head.html` 中，記得讓他對應你喜歡的位置：  
 
@@ -100,24 +100,24 @@ Well。首先你要放好你所需的圖片，比如我的就放在 `assets` 裡
 
 跟著它設定，**記得填好 Shortname**，它相當於一個 ID 而且**不能更改**。  
 
-![disqus](/pic/disqus.png)
+![disqus](../pics/2020-08-21/disqus.png)
 
 回到 `_config.yml`，在 disqus 的 shortname 欄中填入你的 Shortname。**然後在 `url` 中填入部落格的網址**。   
 
-![disqusconf2](/pic/disqusconf2.png)
+![disqusconf2](../pics/2020-08-21/disqusconf2.png)
 
-![disqusconf1](/pic/disqusconf1.png) 
+![disqusconf1](../pics/2020-08-21/disqusconf1.png) 
 
 然後你也可以去開啟 Reactions，比如我朋友的長這樣。。。  
 
-![reactions](/pic/reactions.png)
+![reactions](../pics/2020-08-21/reactions.png)
 
 ## Google Analytics  
 **如果無法使用 Google 的服務，不妨嘗試下 [Bing Webmaster](https://www.bing.com/toolbox/webmaster/)**。  
 
 在 Google Analytics 設定完成後，你可能會得到一段 JS 代碼。當然你也可以在 `管理 > 追蹤資訊 > 追蹤程式碼` 中找到。  
 
-![ganaly](/pic/ganaly.png)
+![ganaly](../pics/2020-08-21/ganaly.png)
 
 複製，把它粘貼到 `_includes/head.html` 中。等待一段時間就可以看到 Google Analytics 的追蹤了。
 
