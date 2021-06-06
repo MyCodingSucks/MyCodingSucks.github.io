@@ -187,7 +187,7 @@ It doesn't find those functions that the platform doesn't provide, so we need to
 
 Don't worry, we still have mighty GitHub. Many file can be found in GitHub. I used this [ifaddrs.c](https://github.com/SWRT-dev/bluecave-asuswrt/blob/master/release/src/router/smartdns/src/lib/ifaddrs.c) and this [ifaddrs.h](https://github.com/lattera/glibc/blob/master/inet/ifaddrs.h). I know little about C or C++, so I can't give too much advice. Add `ifaddrs.h` in `includes/` and add `ifaddrs.c` in `util/ifaddrs/`. Don't forget to edit `config.mk` if you didn't do it before. 
 
-After all things are done, enter `make` and start compiling. Compiling MiniEAP is pretty fast. You can type `file minieap ` to check if everything is fine.
+After all things are done, enter `make` and start compiling. Compiling MiniEAP is pretty fast. You can type `file minieap` to check if everything is fine.
 
 ![file](/pics/2021-06-06/file.png)
 
