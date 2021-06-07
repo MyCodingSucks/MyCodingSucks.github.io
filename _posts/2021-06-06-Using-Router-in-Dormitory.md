@@ -5,7 +5,7 @@ date:   2021-06-06
 tags: router asuswrt-merlin
 ---
 
-Well, actually I don't want too many people in my university to know this, so I decided writing this blog in English and not to mention the name of my school clearly here. You can find the name in the blog, if it isn't your school, hopefully, the part of cross compiling can help you.
+Well, actually I don't want too many people in my university know this, so I decided writing this blog in English and not to mention the name of my school clearly here. You can find the name in the blog, if it isn't your school, hopefully, the part of cross compiling can help you.
 
 ---
 
@@ -67,11 +67,11 @@ patch -p1 < ~/openwrt-minieap/patches/005-remove-pid-check-warn.patch
 
 ![wtf](/pics/2021-06-06/wtf.jpg)
 
-Actually I want to use a asterisk to get them done at once, but it threw me this... wtf
+Actually I want to use an asterisk to get them done at once, but it threw me this... wtf
 
 ### Environment 
 
-After patching, we need to create some symlink. For my router R6900, I just need to focus on `BCM-SDK` :
+After patching, we need to create some symlinks. For my router, R6900, I just need to focus on `BCM-SDK` :
 
 ```
 sudo ln -s ~/am-toolchains/brcm-arm-sdk/hndtools-arm-linux-2.6.36-uclibc-4.5.3 /opt/brcm-arm
@@ -130,7 +130,7 @@ CC := ~/am-toolchains/brcm-arm-sdk/hndtools-arm-linux-2.6.36-uclibc-4.5.3/bin/ar
 
 As I failed for many times, even I know I shouldn't do like this, but I am a little bit annoyed at last. **Plz adjust the paths for your own environment if necessary**.
 
-Also remove the "#" if front of `PLUGIN_MODULES`, as we need to use it later.
+Also remove the "#" if front of `PLUGIN_MODULES += ifaddrs`, as we need to use it later.
 
 After all, the `config.mk` without comments looks like this:
 
@@ -183,7 +183,7 @@ net_util.c:(.text+0x36c): undefined reference to `freeifaddrs'
 collect2: ld returned 1 exit status
 ```
 
-It doesn't find those functions that the platform doesn't provide, so we need to add those file ourselves. That's why I add `PLUGIN_MODULES += ifaddrs` in `config.mk` before.
+It doesn't find those functions that the platform doesn't provide, so we need to add those files ourselves. That's why I add `PLUGIN_MODULES += ifaddrs` in `config.mk` before, as it enables us to use those files.
 
 Don't worry, we still have mighty GitHub. Many file can be found in GitHub. I used this [ifaddrs.c](https://github.com/SWRT-dev/bluecave-asuswrt/blob/master/release/src/router/smartdns/src/lib/ifaddrs.c) and this [ifaddrs.h](https://github.com/lattera/glibc/blob/master/inet/ifaddrs.h). I know little about C or C++, so I can't give too much advice. Add `ifaddrs.h` in `includes/` and add `ifaddrs.c` in `util/ifaddrs/`. Don't forget to edit `config.mk` if you didn't do it before. 
 
@@ -199,7 +199,7 @@ There're some problems:
 
 ### Auto Reboot
 
-To use `crontab` in `Arsuswrt-Merlin` in a complex thing, as everything not in `/jffs` will be delete. However, we have [this](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Scheduled-Reboot) in wiki. Just refer it.
+To use `crontab` in `Arsuswrt-Merlin` is a complex thing, as everything not in `/jffs` will be delete. However, we have [this](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Scheduled-Reboot) in wiki. Just refer it.
 
 ### Auto Reauth
 
@@ -228,7 +228,7 @@ It means if the router cannot ping `cn.bing.com` successfully, it will write a l
 
 ![log](/pics/2021-06-06/log.png)
 
-In User scripts, we have `wan-script`, add this three line in the script:
+In User scripts, we have `wan-script`, add this three lines in the script:
 
 ```
 cp /jffs/minieap/minieap.conf /etc/
